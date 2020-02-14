@@ -1,4 +1,4 @@
-# ydmo
+# leadingzero
 ![Travis (.com)](https://img.shields.io/travis/com/nothingrandom/leadingzero)
 > Add leading zeros to a number or string
 

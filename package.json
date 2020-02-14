@@ -1,0 +1,48 @@
+{
+  "name": "leadingzero",
+  "version": "1.0.0",
+  "description": "Add leading zeros to a number or string",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/nothingrandom/leadingzero"
+  },
+  "keywords": [
+    "zero",
+    "leading",
+    "pad",
+    "padding",
+    "number",
+    "string",
+    "int",
+    "integer",
+    "utility",
+    "nano"
+  ],
+  "author": {
+    "name": "Benjamin Hollway",
+    "email": "benjamin@nothingrandom.com",
+    "url": "nothingrandom.com"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nothingrandom/leadingzero/issues"
+  },
+  "homepage": "https://github.com/nothingrandom/leadingzero#readme",
+  "xo": {
+    "extends": [
+      "eslint-config-airbnb-base"
+    ]
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "xo": "^0.25.3"
+  }
+}

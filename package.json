@@ -2,9 +2,16 @@
   "name": "leadingzero",
   "version": "1.0.0",
   "description": "Add leading zeros to a number or string",
-  "main": "index.js",
+  "type": "module",
+  "main": "./commonjs/index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./commonjs/index.js"
+  },
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "build": "rollup -c",
+    "postinstall": "rollup -c ./rollup.config.js"
   },
   "repository": {
     "type": "git",
@@ -43,6 +50,7 @@
   "devDependencies": {
     "ava": "^2.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
+    "rollup": "^2.23.1",
     "xo": "^0.25.3"
   }
 }

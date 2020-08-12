@@ -8,4 +8,4 @@ const leadingzero = (num, zero = '2', char = '0') => {
   return prefix + String(number).padStart(zero, char);
 };
 
-module.exports = leadingzero;
+export default leadingzero;

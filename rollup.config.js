@@ -3,5 +3,6 @@ export default {
   output: {
     file: 'commonjs/index.js',
     format: 'cjs',
+    exports: 'default',
   },
 };

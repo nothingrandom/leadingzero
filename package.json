@@ -47,10 +47,12 @@
       "eslint-config-airbnb-base"
     ]
   },
+  "dependencies": {
+    "rollup": "^2.23.1"
+  },
   "devDependencies": {
     "ava": "^2.4.0",
     "eslint-config-airbnb-base": "^14.0.0",
-    "rollup": "^2.23.1",
     "xo": "^0.25.3"
   }
 }

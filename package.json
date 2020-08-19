@@ -1,6 +1,6 @@
 {
   "name": "leadingzero",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Add leading zeros to a number or string",
   "type": "module",
   "types": "./index.d.ts",

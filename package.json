@@ -49,7 +49,7 @@
     ]
   },
   "dependencies": {
-    "rollup": "^2.23.1"
+    "rollup": "^3.29.5"
   },
   "devDependencies": {
     "ava": "^2.4.0",
